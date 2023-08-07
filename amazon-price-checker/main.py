@@ -3,8 +3,8 @@ import requests
 import lxml
 import smtplib
 
-USER = "metinkzv@gmail.com"
-PASSWORD="jovk dufm wevk tyyc"
+USER = "username@gmail.com"
+PASSWORD="password"
 server = smtplib.SMTP("smtp.gmail.com", 587, timeout=120 )
 server.starttls()
 server.login(USER, PASSWORD)
